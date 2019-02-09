@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(65, 1, 1);
+  width: 100%;
+}
+#logo{
+  width: 60%;
+  text-align: left;
+  margin-top: 3%;
+}
+
+.icono{
+  list-style: none;
+  display: inline;
+}
+.youtube{
+  margin-left: 35%;
+}
+li a img{
+  width: 10%;
+  display: inline;
+  margin-top: 50%;
+}
+.iconbar{
+  float: right;
+  padding: 0;
+}
+.bnavigation{
+  text-decoration: none;
+  text-align: justify;
+  background-color: rgb(228, 182, 79);
+}
+.barramenu{
+  margin-top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.jumbotron{
+  width: 96%;
+  margin: 0 auto;
+
+}
+.imagen{
+width: 100%;
+margin-bottom: 1rem;
+}
+
+.content{
+  background-color: rgb(255, 255, 255);
+  width: 98%;
+  margin: 0 auto;
+}
+
+}
+.container .jumbotron{
+  padding: 0 0 2% 0;
+}
+.comentario{
+  width: 90%;
+  margin: 0 0.5rem 0 0.5rem;
+}
+#usuario{
+  width: 5%;
+  float: left;
+}
+
+.search{
+margin-top: 1rem;
+}
+
+}
+.buscador{
+  margin-bottom: 0;
+  padding: 0;
+}
+.coment{
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.articulo2{
+  margin-top: 3rem;
+}
+.contenido{
+  margin-bottom: 3rem;
+}
+@media (max-width: 480px) {
+.content{
+width: 100%;
+}
+.container{
+  padding: 0 0 0 0;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+  margin: 0 0 0 0;
+  width: 100%;
+  border-radius: 0;
+}
+.menubar{
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+}
+.youtube{
+  margin-left: 0;
+}
+.iconbar{
+  text-align: center;
+}
+
+}

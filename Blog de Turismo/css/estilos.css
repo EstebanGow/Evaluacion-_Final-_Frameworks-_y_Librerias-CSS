@@ -1,0 +1,93 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+}
+.logo{
+  width: 20%;
+  border-radius: 20%;
+  margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: -60px;
+  display: inline;
+}
+.header{
+  max-height: 4rem;
+}
+.header1{
+  margin-bottom: 0;
+}
+.header2{
+  margin-top: 0;
+}
+.main-title{
+  display: inline;
+
+}
+.titulo{
+  margin: 0 0 0 0;
+}
+.navmenu{
+  text-align: right;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 1rem
+}
+
+.social{
+  width: 55%;
+  filter: invert(80%);
+}
+.social:hover{
+  transform: scale(1.1,1.1);
+}
+.contenido{
+  margin-top: 4rem;
+}
+.img1{
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  transition: border;
+}
+.img1:hover{
+  border: 4px solid rgba(0, 143, 213, 0.47);
+}
+#acuario{
+  width: 20%;
+  float: left;
+  margin-right: 1.5rem;
+}
+.texto{
+  text-align: justify;
+}
+.card1{
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.Autor{
+  width: 50%;
+  margin-top: 1.5rem;
+}
+.Autor-image-content{
+  text-align: center;
+}
+.Autor-content{
+  text-align: center;
+}
+form label{
+  color: white;
+}
+@media (max-width: 480px) {
+  .logo{
+    width: 40%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+  }
+#acuario{
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

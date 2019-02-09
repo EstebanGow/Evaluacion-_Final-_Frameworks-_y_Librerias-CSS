@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Gastronomia</title>
+  <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
+</head>
+<body>
+  <!--este es el encabezado-->
+  <div class="contenedor">
+    <div class="row encabezado">
+      <div class="large-4 small-12 medium-4 columns titulo">
+        <h1><i>Cocinando</i></h1>
+        <br>
+        <br>
+        <p class="text-right">El Blog de los amantes de la <br>gastronomia</p>
+      </div>
+    </div>
+    <!--menu vertical-->
+    <div class="row large-uncollapse content">
+      <div class="large-4 small-12 columns hide-for-small-only">
+        <div class="callout menubar">
+          <div class="row column">
+            <form>
+              <input id="buscar" type="text" placeholder="Buscar..." />
+              <button><i class="step fi-magnifying-glass pink"></i></button>
+            </form>
+          </div>
+          <div class="row">
+            <div class="columns">
+              <ul class="vertical menu vmenu">
+                <li class="itmenu"><a href="#">Inicio</a></li>
+                <li class="itmenu"><a href="#">Mi Plato Perfecto</a></li>
+                <li class="itmenu"><a href="#">Recetas</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="title">Favoritos:</h3>
+            <div class="cloumns imagen">
+              <img src="img/1.jpg" alt="receta">
+              <img src="img/2.jpg" alt="receta">
+              <img src="img/3.jpg" alt="receta">
+            </div>
+          </div>
+          <div class="row">
+            <div class="cloumns imagen">
+              <img src="img/4.jpg" alt="receta">
+              <img src="img/5.jpg" alt="receta">
+              <img src="img/6.jpg" alt="receta">
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns">
+              <h3 id="title">Historial:</h3>
+              <ul class="lista">
+                <li><a href="#">Postres</a></li>
+                <li><a href="#">Arroz con pollo</a></li>
+                <li><a href="#">Churrazco</a></li>
+                <li><a href="#">Limonada de Coco</a></li>
+                <li><a href="#">Pastas Carbonara</a></li>
+                <li><a href="#">Tortas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="large-8 small-12 columns">
+        <div class="callout content2">
+          <h3>Pollo Con Champiñones</h3>
+          <p id="fecha">7 de Enero de 2018</p>
+          <img src="img/7.jpg" alt="pollo">
+          <h3>Ingredientes:</h3>
+          <ul>
+            <li>Pollo</li>
+            <li>1 unidad de cebolla larga</li>
+            <li>1 manojo de Cilantro</li>
+            <li>4 tazas de Agua (960 mililitros)</li>
+            <li> 1 chorro de Aceite</li>
+            <li> 2 tazas de Caldo de pollo</li>
+            <li> 1 pizca de Sal</li>
+            <li>1 barra de Mantequilla</li>
+            <li>1 paquete de champiñón</li>
+            <li> 3 cucharadas soperas de Harina de trigo 2 tazas de Cald</li>
+          </ul>
+          <h3>Preparacion:</h3>
+          <p>
+            Unos datos que debes tener en cuenta si quieres preparar un buen pollo con champiñones es que no se trata de una receta
+            estricta, es decir que la puedes modificar según tus necesidades y también según lo que tengas en la nevera. Para el
+            pollo, siempre recomendamos pechuga porque es más fácil de trabajar y comer, pero lo cierto es que otras partes del
+            pollo como los muslos tienen mucho más sabor. En cuanto a los champiñones lo mismo, puedes usarlos frescos o de bote,
+            o si te gustan muchos las setas puedes improvisar y mezclar con otras variedades como los portobello.
+          </p>
+          <form>
+            <p>Escrbibe un Comentario</p>
+            <textarea name="coment"></textarea>
+            <a class="button float-right"href="#"><i class="step fi-pencil"></i> Publicar</a>
+          </form>
+          <hr>
+          <img class="usuario float-left"src="img/comen1.png" alt="comentario">
+          <p><b>Juan32:</b> Que gran post, aprendi mucho de la receta de las pastas <i class="step fi-like"></i> </p>
+          <hr>
+          <img class="usuario float-left" src="img/comen2.png" alt="comentario">
+          <p><b>Carlos20::</b> Gracias, quedaron deliciosas mis pastas <i class="step fi-like"></i> </p>
+          <hr>
+          <img class="usuario float-left" src="img/comen3.png" alt="comentario">
+          <p><b>Julia2::</b> Que gran post, sigan subiendo mas contenido <i class="step fi-like"></i> </p>
+          <hr>
+          <img class="usuario float-left" src="img/comen4.png" alt="comentario">
+          <p><b>Ana7:</b> Super me gusto mucho la receta de las pastas :D <i class="step fi-like"></i> </p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+
+
+        <div class="large-8 large-offset-4 columns">
+          <div class="callout content2">
+            <h3>Pastas Carbonara</h3>
+            <p id="fecha">03 de Enero de 2018</p>
+            <img src="img/8.jpg" alt="pollo">
+            <h3>Ingredientes:</h3>
+            <h3>Preparacion:</h3>
+            <p>
+              En una sartén con el aceite de oliva, rehogar la cebolla con el ajo, una vez caramelizado agregar la tocineta, cocinar.
+              Agregar poco a poco la crema de leche, agregar sal y pimienta, añaadir el queso parmesano y la yema.
+              Agregar la pasta y una cucharada de sal al agua hirviendo y cocinar.
+              Mezclando frecuentemente hasta que estén al dente.
+              Por último escurrir la pasta.
+              Agregar la pasta a la salsa y mezclar hasta que toda esté impregnada.
+              Espolvorear con perejil y servir inmediatamente.
+            </p>
+            <form>
+              <p>Escrbibe un Comentario</p>
+              <textarea name="coment"></textarea>
+              <a class="button float-right"href="#"><i class="step fi-pencil"></i> Publicar</a>
+            </form>
+            <hr>
+            <img class="usuario float-left"src="img/comen1.png" alt="comentario">
+            <p><b>Jhon32:</b> Genial, seguire visitando mas seguido el blog, buenas recetas <i class="step fi-like"></i> </p>
+            <hr>
+            <img class="usuario float-left" src="img/comen2.png" alt="comentario">
+            <p><b>luis23:</b>Se ve delicioso el pollo con champiñones :) <i class="step fi-like"></i> </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/what-input.js"></script>
+  <script src="js/foundation.min.js" charset="utf-8"></script>
+  <script src="js/home.js" charset="utf-8"></script>
+</body>
+</html>

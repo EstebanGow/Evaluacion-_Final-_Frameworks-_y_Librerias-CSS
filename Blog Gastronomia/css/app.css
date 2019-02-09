@@ -1,0 +1,83 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.encabezado{
+  color: white;
+}
+.titulo{
+  border-right: 1px solid white;
+}
+.content{
+  margin-top: 1rem;
+  border-top: 1px solid white;
+  padding: 0.7rem;
+}
+.pink{
+  background-color: rgb(218, 90, 213);
+  color: white;
+  font-size: 2vw;
+  padding: 0 2px 5px 2px;
+}
+#buscar{
+  width: 85%;
+  display: inline;
+  margin-right: 0;
+}
+.callout{
+  width: 98%;
+}
+.contenedor{
+  background-color: rgba(61, 125, 210, 0.4);
+  width: 70%;
+  margin: 0 auto;
+}
+.vmenu{
+  border: 1px solid rgba(171, 50, 50, 1);
+}
+.itmenu{
+  border: 1px solid rgba(171, 50, 50, 1);
+  text-align: center;
+}
+.menubar{
+  background-color: rgb(233, 225, 246);
+}
+.imagen{
+  display: inline;
+}
+.imagen img{
+  width: 30%;
+
+}
+#title{
+ margin-top: 1rem;
+ color: rgb(167, 42, 38);
+}
+.lista{
+  list-style-type: none;
+  margin-left: 0;
+}
+.content2{
+  background-color: rgb(255, 226, 251);
+}
+#fecha{
+  color: rgb(167, 42, 38);
+}
+.usuario{
+  width: 10%;
+}
+@media screen and (max-device-width: 420px) {
+.contenedor{
+  width: 100%;
+}
+
+}
+@media (min-device-width: 421px) and (max-device-width: 720px){
+  .contenedor{
+    width: 90%;
+  }
+
+}
